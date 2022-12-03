@@ -1,6 +1,7 @@
 <script>
 	import NestedComp from './NestedComp.svelte';
 	import Nested1 from './Nested1.svelte';
+	import Information from './Information.svelte';
   let name = "World";
   let src = "/tutorial/image.gif";
   let string = 'this string contains <i>HTML tag</i>'
@@ -29,6 +30,13 @@
 
   function addNum2(){
 	numbers = [...numbers, numbers.length + 1];
+  }
+
+  const pkg = {
+	name: 'svelte', 
+	version: 6,
+	speed: 'blazing',
+	website: 'https://svelte.dev'
   }
 
 </script>
@@ -69,3 +77,6 @@
 
 <Nested1 answer = {52}/>
 <Nested1 />
+
+<Information name={pkg.name} version={pkg.version} speed={pkg.speed} website={pkg.website} />
+<Information {...pkg} />
