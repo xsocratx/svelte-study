@@ -2,6 +2,7 @@
 	import NestedComp from './NestedComp.svelte';
   let name = "World";
   let src = "/tutorial/image.gif";
+  let string = 'this string contains <i>HTML tag</i>'
 </script>
 
 <style>
@@ -19,3 +20,5 @@
 <p>Paragraph</p>
 
 <NestedComp />
+
+<p>{@html string}</p>
