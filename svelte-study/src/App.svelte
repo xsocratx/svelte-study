@@ -1,5 +1,6 @@
 <script>
 	import NestedComp from './NestedComp.svelte';
+	import Nested1 from './Nested1.svelte';
   let name = "World";
   let src = "/tutorial/image.gif";
   let string = 'this string contains <i>HTML tag</i>'
@@ -65,3 +66,5 @@
 <p class="num-style">{numbers.join(' + ')} = {sum}</p>
 
 <button on:click={addNum1}>Add a number</button>
+
+<Nested1 answer = {52}/>
