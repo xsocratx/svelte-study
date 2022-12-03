@@ -2,6 +2,7 @@
 	import NestedComp from './NestedComp.svelte';
 	import Nested1 from './Nested1.svelte';
 	import Information from './Information.svelte';
+	import IfBlocks from './IfBlocks.svelte';
   let name = "World";
   let src = "/tutorial/image.gif";
   let string = 'this string contains <i>HTML tag</i>'
@@ -80,3 +81,5 @@
 
 <Information name={pkg.name} version={pkg.version} speed={pkg.speed} website={pkg.website} />
 <Information {...pkg} />
+
+<IfBlocks />
