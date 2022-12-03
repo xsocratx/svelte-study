@@ -3,6 +3,11 @@
   let name = "World";
   let src = "/tutorial/image.gif";
   let string = 'this string contains <i>HTML tag</i>'
+  let count = 0;
+
+  function incCount(){
+	count += 1;
+  }
 </script>
 
 <style>
@@ -22,3 +27,7 @@
 <NestedComp />
 
 <p>{@html string}</p>
+
+<button on:click={incCount}>
+	Clicked {count} {count === 1 ? 'Time' : 'Times'}
+</button>
