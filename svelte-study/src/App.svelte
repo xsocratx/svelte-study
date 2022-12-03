@@ -5,6 +5,8 @@
   let string = 'this string contains <i>HTML tag</i>'
   let count = 0;
 
+  $: doubled = count * 2;
+
   function incCount(){
 	count += 1;
   }
@@ -31,3 +33,5 @@
 <button on:click={incCount}>
 	Clicked {count} {count === 1 ? 'Time' : 'Times'}
 </button>
+
+<p>{count} doubled is {doubled}</p>
