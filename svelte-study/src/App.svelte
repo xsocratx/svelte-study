@@ -1,9 +1,10 @@
 <script>
-import NestedComp from './NestedComp.svelte';
-import Nested1 from './Nested1.svelte';
-import Information from './Information.svelte';
-import IfBlocks from './IfBlocks.svelte';
+	import NestedComp from './NestedComp.svelte';	
+	import Nested1 from './Nested1.svelte';
+	import Information from './Information.svelte';
+	import IfBlocks from './IfBlocks.svelte';
   import ElseBlock from './ElseBlock.svelte';
+  import ElseIfBlock from './ElseIfBlock.svelte';
   let name = "World";
   let src = "/tutorial/image.gif";
   let string = 'this string contains <i>HTML tag</i>'
@@ -86,3 +87,5 @@ import IfBlocks from './IfBlocks.svelte';
 <IfBlocks />
 
 <ElseBlock />
+
+<ElseIfBlock />
