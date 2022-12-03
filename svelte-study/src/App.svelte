@@ -7,6 +7,13 @@
 
   $: doubled = count * 2;
 
+  $: console.log('the count is ' + count);
+
+  $: if (count >= 10) {
+	alert('count is higth!');
+	count = 9;
+  }
+
   function incCount(){
 	count += 1;
   }
