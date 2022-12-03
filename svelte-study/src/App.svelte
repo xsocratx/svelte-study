@@ -1,4 +1,5 @@
 <script>
+	import NestedComp from './NestedComp.svelte';
   let name = "World";
   let src = "/tutorial/image.gif";
 </script>
@@ -16,3 +17,5 @@
 <img {src} alt="Dancing man" />
 
 <p>Paragraph</p>
+
+<NestedComp />
