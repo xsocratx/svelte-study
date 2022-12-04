@@ -6,6 +6,7 @@
   import ElseBlock from './ElseBlock.svelte';
   import ElseIfBlock from './ElseIfBlock.svelte';
   import EachBlock from './EachBlock.svelte';
+  import DomEvent from './DomEvent.svelte';
   let name = "World";
   let src = "/tutorial/image.gif";
   let string = 'this string contains <i>HTML tag</i>'
@@ -91,3 +92,4 @@
 
 <ElseIfBlock />
 <EachBlock />
+<DomEvent />
