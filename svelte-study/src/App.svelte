@@ -9,6 +9,7 @@
   import DomEvent from './DomEvent.svelte';
   import EventModifier from './EventModifier.svelte';
   import ComponentEvent from './ComponentEvent.svelte';
+  import TextInputs from './TextInputs.svelte';
   let name = "World";
   let src = "/tutorial/image.gif";
   let string = 'this string contains <i>HTML tag</i>'
@@ -97,3 +98,4 @@
 <DomEvent />
 <EventModifier />
 <ComponentEvent />
+<TextInputs />
