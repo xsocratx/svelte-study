@@ -5,6 +5,7 @@
 	import IfBlocks from './IfBlocks.svelte';
   import ElseBlock from './ElseBlock.svelte';
   import ElseIfBlock from './ElseIfBlock.svelte';
+  import EachBlock from './EachBlock.svelte';
   let name = "World";
   let src = "/tutorial/image.gif";
   let string = 'this string contains <i>HTML tag</i>'
@@ -89,3 +90,4 @@
 <ElseBlock />
 
 <ElseIfBlock />
+<EachBlock />
