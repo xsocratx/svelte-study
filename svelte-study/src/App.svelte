@@ -13,6 +13,7 @@
   import NumericInput from './NumericInput.svelte';
   import CheckBoxInput from './CheckBoxInput.svelte';
   import GroupInput from './GroupInput.svelte';
+  import TextInputBind from './TextInputBind.svelte';
   let name = "World";
   let src = "/tutorial/image.gif";
   let string = 'this string contains <i>HTML tag</i>'
@@ -105,3 +106,4 @@
 <NumericInput />
 <CheckBoxInput />
 <GroupInput />
+<TextInputBind />
