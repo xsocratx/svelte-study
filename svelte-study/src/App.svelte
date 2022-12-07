@@ -11,6 +11,7 @@
   import ComponentEvent from './ComponentEvent.svelte';
   import TextInputs from './TextInputs.svelte';
   import NumericInput from './NumericInput.svelte';
+  import CheckBoxInput from './CheckBoxInput.svelte';
   let name = "World";
   let src = "/tutorial/image.gif";
   let string = 'this string contains <i>HTML tag</i>'
@@ -101,3 +102,4 @@
 <ComponentEvent />
 <TextInputs />
 <NumericInput />
+<CheckBoxInput />
